@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.banner h1{
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.banner p{
+    color: #ffffff;
+    opacity: 0.8;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 24px ;}
+
+.btn-apply{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #1A48E3;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 20px;
+    align-items: center;
+}
+
+.btn-apply:hover{
+    background-color: #4b8fd7;
+    color: #4b6ad2;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);}
+
+.container{
+    width: 900px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    }
+
+section h2{
+    font-size: 40px;
+    padding: 16px 0;}
+
+.campus{
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    grid-gap: 20px;
+    background: rgb(225, 224, 224);
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    padding: 24px;
+    margin: 8px;
+}
+
+.campus img{
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    padding: 24px;
+    border-radius: 4px;
+    margin: 8;
+    background-color: #404042;
+    color: #ffffff;
+    font-size: 24px;}
